@@ -1,7 +1,7 @@
 ## Olá, meu nome é Ramires Matias, sou Desenvolvedor FullStack Jr 👨‍💻 
 
-- 🔭 Atualmente trabalho como FullStack: VueJS, Node e Mysql
-- 🌱 Estou estudando React, Next, TypeScript e TDD
+- 🔭 Atualmente trabalho como FullStack com as tecnologias: VueJS, Node e MySQL
+- 🌱 Estou atualmente estudando React, Next, TypeScript e TDD
 
 
 <div align="center">
