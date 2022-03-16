@@ -1,6 +1,6 @@
-## Olá, meu nome é Ramires Matias, sou Desenvolvedor Web Jr na iRancho 👨‍💻 
+## Olá, meu nome é Ramires Matias, sou Desenvolvedor Web Jr 👨‍💻 
 
-- 🔭 Atualmente trabalho como FullStack com as tecnologias: VueJS, Node e MySQL
+- 🔭 Atualmente trabalho como FullStack com as tecnologias: VueJS, Node, MySQL, React/NextJS
 - 🌱 Estou atualmente estudando React, Next, TypeScript e TDD
 
 
