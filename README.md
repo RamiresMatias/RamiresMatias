@@ -1,6 +1,6 @@
 ## Olá, meu nome é Ramires Matias, sou Desenvolvedor Web 👨‍💻 
 
-- 🔭 Atualmente trabalho como Desenvolvedor Front-end com as tecnologias: VueJS, Tailwind, Scss
+- 🔭 Atualmente trabalho como Desenvolvedor Front-end com as tecnologias: Nuxt, VueJs, Tailwind, Scss
 
 <div align="center">
   <a href="https://github.com/RamiresMatias">
