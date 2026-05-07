@@ -16,7 +16,7 @@
 
 ## 👨‍💻 Sobre mim
 
-Sou um **Desenvolvedor Web**. Gosto de criar soluções digitais que unem performance, design e boa experiência de uso. Atualmente, dedico meu tempo ao desenvolvimento de aplicações modernas com foco em **produtividade**, **escalabilidade** e **boas práticas**.
+Sou um **Desenvolvedor Web**. Gosto de criar soluções digitais que unem performance, design e boa experiência de uso. Atualmente, dedico meu tempo ao desenvolvimento de aplicações com foco em **performance**, **escalabilidade** e **boas práticas**.
 
 - 🔭 Trabalho diariamente com **TypeScript, Next.js, React.js, Tailwind CSS, Node.js, Prisma e PostgreSQL**
 - 🌱 Sempre estudando e me aprofundando em novas ferramentas do ecossistema JavaScript
