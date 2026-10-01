@@ -1,38 +1,57 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:12506b,100:2c8fa8&height=190&section=header&text=Ramires%20Matias&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Desenvolvedor%20Full%20Stack&descAlignY=56&descSize=18&animation=fadeIn" width="100%" alt="Ramires Matias, Desenvolvedor Full Stack" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img src="./assets/banner-light.svg" width="100%" alt="Ramires Matias, desenvolvedor full stack. TypeScript do front ao back.">
+</picture>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=2C8FA8&center=true&vCenter=true&width=520&lines=TypeScript+do+front+ao+back;Estudando+arquitetura+de+software;Microsservi%C3%A7os%2C+eventos+e+DDD" alt="TypeScript do front ao back. Estudando arquitetura de software. Microsserviços, eventos e DDD." />
+Desenvolvedor full stack. Trabalho com TypeScript do front ao back e hoje estudo arquitetura de software: como um sistema se divide, se comunica e aguenta carga.
 
-  <p>
-    <a href="https://www.linkedin.com/in/ramires-matias-311aa9191/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" /></a>
-    &nbsp;
-    <a href="mailto:ramiresmatias20000@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Gmail" /></a>
-  </p>
-</div>
+Este perfil está documentado como um sistema.
 
-## Sobre mim
+## Diagrama
 
-Sou desenvolvedor full stack e trabalho com TypeScript do front ao back. Hoje estudo arquitetura de software.
+```mermaid
+flowchart LR
+  subgraph front["Front-end"]
+    direction TB
+    react["React · Next.js"]
+    vue["Vue · Nuxt"]
+    tw["Tailwind CSS"]
+  end
+  subgraph back["Back-end"]
+    direction TB
+    nodejs["Node.js"]
+    nest["NestJS · Fastify"]
+  end
+  front -- HTTP --> back
+  back -- eventos --> mq[("RabbitMQ")]
+  back -- Prisma --> pg[("PostgreSQL")]
+  back -- cache --> redis[("Redis")]
+```
 
-- 💼 Front com React, Next.js, Vue e Nuxt. Back com Node.js, NestJS e Fastify
-- 🏗️ Estudando microsserviços, arquitetura orientada a eventos, DDD e arquitetura hexagonal
-- 📚 Leituras:
-  - *Fundamentos da Arquitetura de Software* (Mark Richards e Neal Ford)
-  - *Arquitetura de Software: As Partes Difíceis* (Neal Ford, Mark Richards, Pramod Sadalage e Zhamak Dehghani)
-  - *Refatoração* (Martin Fowler)
-  - *Entendendo Algoritmos* (Aditya Bhargava)
-- 🗣️ Estudando inglês
-
-## Tecnologias
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxtjs,tailwind,nodejs,nestjs,prisma,postgres,redis,rabbitmq,docker,git&perline=8" alt="TypeScript, JavaScript, React, Next.js, Vue, Nuxt, Tailwind CSS, Node.js, NestJS, Prisma, PostgreSQL, Redis, RabbitMQ, Docker, Git" />
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxtjs,tailwind,nodejs,nestjs,prisma,postgres,redis,rabbitmq,docker,git" alt="TypeScript, JavaScript, React, Next.js, Vue, Nuxt, Tailwind CSS, Node.js, NestJS, Prisma, PostgreSQL, Redis, RabbitMQ, Docker, Git" />
 </p>
 
-## Atividade
+## Decisões
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=RamiresMatias&theme=transparent&hide_border=true&ring=2C8FA8&fire=2C8FA8&currStreakLabel=2C8FA8" alt="Sequência de contribuições no GitHub" />
-</p>
+| ADR | Decisão | Status |
+|---|---|---|
+| 001 | Usar TypeScript do front ao back. Uma linguagem e os mesmos tipos em todas as camadas. | `aceita` |
+| 002 | Estudar arquitetura de software: microsserviços, arquitetura orientada a eventos, DDD e arquitetura hexagonal. | `em andamento` |
+| 003 | Aprender inglês. | `em andamento` |
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:12506b,100:2c8fa8&height=100&section=footer" width="100%" alt="" />
+## Observabilidade
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=RamiresMatias&amp;hide_border=true&amp;background=00000000&amp;locale=pt_BR&amp;ring=3FB5CF&amp;fire=E3A33B&amp;currStreakLabel=3FB5CF&amp;currStreakNum=E6EDF3&amp;sideNums=E6EDF3&amp;sideLabels=8B949E&amp;dates=8B949E&amp;stroke=30363D">
+  <img src="https://streak-stats.demolab.com?user=RamiresMatias&amp;hide_border=true&amp;background=00000000&amp;locale=pt_BR&amp;ring=1B7F99&amp;fire=B26B00&amp;currStreakLabel=1B7F99&amp;currStreakNum=1F2328&amp;sideNums=1F2328&amp;sideLabels=59636E&amp;dates=59636E&amp;stroke=D1D9E0" alt="Sequência de contribuições no GitHub">
+</picture>
+
+## Endpoints
+
+| Método | Rota | Destino |
+|---|---|---|
+| `GET` | `/linkedin` | [linkedin.com/in/ramires-matias-311aa9191](https://www.linkedin.com/in/ramires-matias-311aa9191/) |
+| `POST` | `/email` | [ramiresmatias20000@gmail.com](mailto:ramiresmatias20000@gmail.com) |
+
+<sub>`200 OK`</sub>
