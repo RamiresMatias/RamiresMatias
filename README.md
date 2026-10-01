@@ -1,9 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <img src="./assets/banner-light.svg" width="100%" alt="Ramires Matias, desenvolvedor full stack. TypeScript do front ao back.">
+  <img src="./assets/banner-light.svg" width="100%" alt="Ramires Matias, desenvolvedor full stack.">
 </picture>
 
-Desenvolvedor full stack. Trabalho com TypeScript do front ao back e hoje estudo arquitetura de software: como um sistema se divide, se comunica e aguenta carga.
+Desenvolvedor full stack. Trabalho com TypeScript e Go, do front ao back, e hoje estudo arquitetura de software: como um sistema se divide, se comunica e aguenta carga.
 
 Este perfil está documentado como um sistema.
 
